@@ -1,0 +1,52 @@
+.menu{
+    border-color: beige;
+}
+.col-sm-3 img{
+    box-shadow: 2px 4px 4px gray;
+}
+#inicio{
+    background-image: url(Fachada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;   
+}
+#inicio h1{
+    color: rgb(226, 125, 58);
+    text-shadow: 2px 2px 2px black;
+    
+}
+.col-sm-3{
+    text-align: center;
+}
+.carousel-item p{
+   text-shadow: 1px 1px 2px black;
+
+}
+.botao{
+    float: right;
+}
+.icone img{
+    
+    margin-bottom: 25px;
+}
+.icone p{
+    float:left;
+    margin-top: 20px;
+}
+
+.logo img{
+    
+    float: left;
+}
+
+#promocao{
+    background-color: rgb(226, 125, 58);
+}
+@media screen and (max-width: 480px) {
+    
+    #redes{
+        display: none;
+    }
+    
+
+    
+}
